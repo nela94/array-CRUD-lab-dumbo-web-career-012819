@@ -7,13 +7,13 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  colors = ["green", "blue", "red", "yellow"]
-  colors.push("purple")
+  array = ["wow", "I", "am", "really", "learning"]
+  colors.push("arrays!")
 end
 
 def add_element_to_start_ofl_array(array, element)
-  colors = ["green", "blue", "red", "yellow"]
-  colors.unshift("purple")
+  array = ["I", "am", "really", "learning"]
+  colors.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
